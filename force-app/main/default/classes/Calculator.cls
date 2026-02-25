@@ -1,11 +1,13 @@
-/*******************************
- * Name : Calculator
- * Author : Pratham Tailor
- * Date : 10/02/2026
- ***************************************/
+/******************************************************************
+ * Version        Date        Name        Description
+ * ================================================================
+ * V1.0        24-02-2026   Devel0per1   Add method Implemented 
+ */
 public with sharing class Calculator {
     public Calculator() {
 
     }
-
+    public integer add(integer a, integer b){
+        return a+b;
+    }
 }
